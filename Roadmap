@@ -1,0 +1,24 @@
+
+---
+
+## 🗓️ Roadmap
+- [ ] **Week 1** – Project setup, basic domain model, sample road network.
+- [ ] **Week 2** – Implement shortest-path algorithm and REST endpoints.
+- [ ] **Week 3** – Integrate weather & traffic APIs; add caching.
+- [ ] **Week 4** – Write unit tests, polish documentation, deploy to AWS.
+
+*(Timeline is flexible; will update as progress continues.)*
+
+---
+
+## ▶️ Getting Started
+**Prerequisites**
+- Java 17+
+- Maven
+- PostgreSQL (optional if using H2)
+
+**Run locally**
+```bash
+git clone https://github.com/<your-username>/ecoroute-optimizer.git
+cd ecoroute-optimizer
+mvn spring-boot:run
